@@ -1,6 +1,6 @@
-# Metrius Server
+# Pedido Eletrônico Server
 
-Metrius Server é uma API backend desenvolvida em Django, responsável por gerenciar autenticação, projetos, pagamentos e usuários para o ecossistema Metrius.
+Pedido Eletrônico Server é uma API backend desenvolvida em Django, responsável por gerenciar autenticação e contas para o ecossistema Pedido Eletrônico.
 
 ## Tecnologias Utilizadas
 - Python 3.11+
@@ -9,12 +9,10 @@ Metrius Server é uma API backend desenvolvida em Django, responsável por geren
 
 ## Estrutura do Projeto
 ```
-metrius-server/
+pedido_eletronico_server/
 ├── apps/
-│   ├── contrib/      # Funcionalidades compartilhadas
-│   ├── pagamento/    # Módulo de pagamentos
-│   ├── projeto/      # Módulo de projetos
-│   └── usuarios/     # Módulo de usuários
+│   ├── core/      # Funcionalidades compartilhadas
+│   └── contas/       # Módulo de usuários
 ├── config/           # Configurações do Django
 ├── manage.py         # Script de gerenciamento
 ├── requirements.txt  # Dependências do projeto
@@ -24,7 +22,7 @@ metrius-server/
 1. Clone o repositório:
    ```bash
    git clone <url-do-repositorio>
-   cd metrius-server
+   cd pedido_eletronico_server
    ```
 2. Crie e ative um ambiente virtual:
    ```bash
