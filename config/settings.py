@@ -1,4 +1,3 @@
-
 from pathlib import Path
 import os
 from datetime import timedelta
@@ -37,6 +36,7 @@ INSTALLED_APPS = [
     'django_rest_passwordreset',
     'apps.contas',
     'apps.core',
+    'apps.produtos',
 ]
 
 MIDDLEWARE = [
